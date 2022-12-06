@@ -12,6 +12,10 @@ def congratulate_user():
 def is_game_over():
     return guessed == WORDS_TO_WIN or errors == ERRORS_TO_LOSE
 
+def additional_task():
+    print("What is this")
+
+
 
 def guess_is_valid(candidate):
     for letter in candidate:
@@ -24,6 +28,7 @@ def guess_is_valid(candidate):
             return False
     return True
 
+# git log --all --graph --oneline --decorate
 
 guessed = 0
 errors = 0
