@@ -12,10 +12,8 @@ def congratulate_user():
 def is_game_over():
     return guessed == WORDS_TO_WIN or errors == ERRORS_TO_LOSE
 
-def additional():
-    print("What is this")
-
-
+def add():
+    print("skldjfgmldfgmdkgjd")
 
 def guess_is_valid(candidate):
     for letter in candidate:
