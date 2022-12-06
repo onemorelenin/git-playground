@@ -14,6 +14,7 @@ def is_game_over():
 
 def add():
     print("skldjfgmldfgmdkgjd")
+    print("sgfsdf")
 
 def guess_is_valid(candidate):
     for letter in candidate:
